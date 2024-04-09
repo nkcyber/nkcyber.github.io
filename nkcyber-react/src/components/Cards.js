@@ -17,7 +17,7 @@ function Cards() {
             />
 
             <CardItem 
-            src="images/nkcyber-logo.svg"
+            src="images/NKCyberLogo_.svg"
             text='Explore our R&D Division'
             label='R&D'
             path='/r&d'
