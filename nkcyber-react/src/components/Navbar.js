@@ -60,13 +60,12 @@ function Navbar() {
           </li>
 
           <li className='nav-item'>
-            <Link to="/divisons" className='nav-links' onClick={closeMobileMenu}>
+            <Link to="/divisions" className='nav-links' onClick={closeMobileMenu}>
               Divisions
             </Link>
           </li>
 
         </ul>
-        {button && <Button buttonStyle='btn-outline'>link</Button>}
       </div>
     </nav>
     </>
