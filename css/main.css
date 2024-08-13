@@ -563,6 +563,15 @@ button:focus {
   max-width: 115px;
 }
 
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+span.nkcyberLogo {
+  padding: 0px 10px;
+}
+
 .navbar-expand-md .navbar-nav .nav-link:focus,
 .navbar-expand-md .navbar-nav .nav-link:hover,
 .navbar-expand-md .navbar-nav .nav-link:hover:before {
@@ -1362,6 +1371,18 @@ button:focus {
 
 .btn-discord:hover {
   background-color: #7083eb;
+  color: white;
+}
+
+.btn-myengagement {
+  background-color: #50508E;
+  border-color: #616199;
+}
+
+.btn-myengagement:hover {
+  background-color: #41417c;
+  border-color: #616199;
+  color: white;
 }
 
 .featured-box .btn {
