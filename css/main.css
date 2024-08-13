@@ -1356,8 +1356,30 @@ button:focus {
   font-weight: bold;
 }
 
+.btn-discord {
+  background-color: #8a9cff;
+}
+
+.btn-discord:hover {
+  background-color: #7083eb;
+}
+
 .featured-box .btn {
   height: fit-content;
+}
+
+.cta-container {
+  grid-template-columns: auto auto auto;
+  display: grid;
+  gap: 10px;
+}
+
+.cta-container img {
+  grid-column: span 1;
+}
+
+.cta-container a {
+  grid-column: span 2;
 }
 
 .featured-box .featured-icon {
