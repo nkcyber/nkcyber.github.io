@@ -1365,7 +1365,8 @@ span.nkcyberLogo {
   font-weight: bold;
 }
 
-.btn-discord {
+.btn-discord,
+.btn-wiki {
   background-color: #8a9cff;
 }
 
